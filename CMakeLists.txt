@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
 # Set the project name and version
-project(NaiveBayes SDLProject VERSION 1.0)
+project(NaiveBayes VERSION 1.0 DESCRIPTION "An SDL Project" LANGUAGES C)
+
 
 # Enable C11 or later standard
 set(CMAKE_C_STANDARD 11)
@@ -11,6 +12,7 @@ find_package(SDL2 REQUIRED)
 
 # Include SDL2 headers
 include_directories(${SDL2_INCLUDE_DIRS})
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Add your source files
 add_executable(NaiveBayes
