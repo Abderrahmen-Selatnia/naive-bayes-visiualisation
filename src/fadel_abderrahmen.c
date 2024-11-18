@@ -1,4 +1,4 @@
-#include "fadel_abderrahmen.h"
+#include "../include/fadel_abderrahmen.h"
 
 void renderMainDisplay(SDL_Renderer* renderer) {
     // Implement main display visualization

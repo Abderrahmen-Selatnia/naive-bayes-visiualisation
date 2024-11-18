@@ -11,7 +11,7 @@ set(CMAKE_C_STANDARD 11)
 find_package(SDL2 REQUIRED)
 
 # Include SDL2 headers
-include_directories(${SDL2_INCLUDE_DIRS})
+include_directories(${CMAKE_SOURCE_DIR}/src/SDL2)
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Add your source files

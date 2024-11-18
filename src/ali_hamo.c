@@ -1,4 +1,4 @@
-#include "ali_hamo.h"
+#include "../include/ali_hamo.h"
 
 void renderAlgorithmVisualization(SDL_Renderer* renderer) {
     // Implement Bayer algorithm visualization
